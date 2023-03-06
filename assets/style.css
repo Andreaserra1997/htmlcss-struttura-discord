@@ -48,7 +48,7 @@ header {
 
 .square {
     background-color: hotpink;
-    flex: 0 1 40%;
+    flex: 0 1 400px;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-inline: auto;
@@ -88,4 +88,20 @@ header {
 
 .grey {
     background-color: lightgrey;
+}
+
+.container-2 {
+    background-color: lightgray;
+    display: flex;
+}
+
+.big-square {
+    background-color: green;
+    flex: 0 1 700px;
+    margin-inline: auto;
+    height: 600px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1.5px dashed black;
+
 }
